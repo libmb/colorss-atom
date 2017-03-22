@@ -1,0 +1,21 @@
+{
+  "name": "ColorSS",
+  "main": "./lib/colorss",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": [
+      "colorss:toggle",
+      "colorss:run"
+    ]
+  },
+  "repository": "https://github.com/atom/colorss",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

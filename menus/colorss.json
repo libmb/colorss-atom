@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle colorss",
+        "command": "colorss:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "colorss",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "colorss:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
